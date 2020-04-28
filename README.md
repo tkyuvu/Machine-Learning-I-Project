@@ -12,7 +12,7 @@
 ## OBJECTIVE
 The purpose of this report is to identify whether a patient will be readmitted in some hospital and the possible treatment given to the patient in order to change the treatment, to avoid a readmission.
 
-## SMART QUESTION:
+## SMART QUESTION
 To Predict the early readmission of diabetic patients and to predict the effective treatment given to a diabetic patient based on various features like Race, gender, age, Medication, A1CResults, etc.
 
 ## INTRODUCTION
@@ -21,10 +21,11 @@ Diabetes and complications, deaths, and societal costs associated with diabetes 
 ## DATA
 In this study we have used Diabetes 130 US hospitals for years 1999-2008 dataset from Kaggle [(link)](https://www.kaggle.com/brandao/diabetes). The main source for this data set is UCI Machine Learning Repository [(link)](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008). The data are submitted on behalf of the Center for Clinical and Translational Research, Virginia Commonwealth University. The dataset represents 10 years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. It includes over 50 features representing total of 101,766 patient and hospital outcomes. The size of the dataset is 18MB. The data contains attributes such as patient number, race, gender, age, admission type, time in hospital, medical specialty of admitting physician, number of lab test performed, HbA1c test result, diagnosis, number of medication, diabetic medications, number of outpatient, inpatient, and emergency visits in the year before the hospitalization, etc. refer to Data Dictionary in appendix for more details.
     
-## Summary:
+## SUMMARY
 With the increasing number of diabetic patients in US it is important to consider the readmissions of the patients to the hospitals within 30 days of discharge and the treatments given to them as early readmission adds burden of penalty to the hospitals. This project provides thorough analysis of factors that might affect early readmission of the patients using method like Random Forest for feature importance. Further it provides the prediction of whether the patient will be early readmitted, and the possible treatments given in early cases using Diabetes 130 US hospitals for years 1999-2008 dataset and by making use of various supervised machine learning algorithms in order to reduce rate of early readmission in the future.
     
-## METHOD/CODE CONTENTS:
+## METHOD/CODE CONTENTS
+### Details are included in Final Code and Report
 1. Data Preprocessing
 2. Feature Engineering - Part 1
 3. Exploratory Data Analysis
@@ -38,11 +39,12 @@ With the increasing number of diabetic patients in US it is important to conside
    - Hyperparameter Tuning
    - Model Selection
 
-## REFERENCES:
+## REFERENCES
 1. Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014.
 2. Rubin, D.J. Hospital Readmission of Patients with Diabetes. Curr Diab Rep 15, 17 (2015). https://doi.org/10.1007/s11892-015-0584-7
 
-## APPENDIX [DATA DICTIONARY]:
+## APPENDIX 
+### Data Dictionary
 1. Encounter ID Unique identifier of an encounter
 2. Patient number Unique identifier of a patient
 3. Race Values: Caucasian, Asian, African American, Hispanic, and other
