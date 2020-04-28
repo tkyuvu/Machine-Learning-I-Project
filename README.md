@@ -6,3 +6,5 @@ The project has 4 sections:
   2. Exploratory Data Analysis
   3. Models for Predicting Readmission
   4. Models for Predicting Treatments
+Packages to be installed:
+  1. !pip install sklearn_pandas
